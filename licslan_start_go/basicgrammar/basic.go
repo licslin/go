@@ -5,6 +5,9 @@ import (
 	"io/ioutil"
 	"math"
 	"math/cmplx"
+	"reflect"
+	"runtime"
+	"strconv"
 )
 
 //go语言学习基础语法   再复习敲一次
@@ -25,6 +28,13 @@ func main() {
 	//play()
 	eval(100, 200, "+")
 	forstart()
+	fmt.Println(convertoBin(5))
+	fmt.Print(apply(pow, 3, 4))
+	a, b := 3, 4
+	//值交换了 指针
+	swap(&a, &b)
+	//值没有交换了
+	swapold(a, b)
 
 }
 
@@ -217,8 +227,103 @@ func forstart() {
 	for i := 0; i <= 100; i++ {
 		sum += i
 	}
+
+	//for条件不需要括号
+	//for条件里可以省略初始条件 结束条件  递增表达式
+}
+
+//转换2进制
+func convertoBin(n int) string {
+	result := ""
+	for ; n > 0; n /= 2 {
+		lsb := n % 2
+		result = strconv.Itoa(lsb) + result
+	}
+	return result
 }
 
 //----------------------函数定义学习--------------------------
+func evals(a, b int, op string) int {
+	al := 0
+	switch op {
+	case "+":
+		al = a + b
+	case "-":
+		al = a - b
+	case "*":
+		al = a * b
+	case "/":
+		//al=a/b  返回一个值第二个参数可以不写
+		q, _ := divNew(a, b)
+		return q
+	default:
+		panic("unsported op" + op)
+	}
+	return al
+}
+
+func evalss(a, b int, op string) (int, error) {
+	switch op {
+	case "+":
+		return a + b, nil
+	case "-":
+		return a - b, nil
+	case "*":
+		return a * b, nil
+	case "/":
+		//al=a/b  第二个参数可以不写
+		q, _ := divNew(a, b)
+		return q, nil
+	default:
+		return 0, fmt.Errorf("unspported op:%s", op)
+	}
+}
+
+//13/3 =4....1
+func div(a, b int) (int, int) {
+	return a / b, a % b
+}
+
+//多返回值函数
+func divNew(a, b int) (q, r int) {
+	return a / b, a % b
+}
+
+//函数式编程
+func apply(op func(int, int) int, a, b int) int {
+	p := reflect.ValueOf(op).Pointer()
+	opName := runtime.FuncForPC(p).Name()
+	fmt.Printf("calling function %s with args "+"(%d,%d)", opName, a, b)
+	return op(a, b)
+}
+func pow(a, b int) int {
+	return int(math.Pow(float64(a), float64(b)))
+}
+
+//可变长参数函数
+func sum(numbers ...int) int {
+	s := 0
+	for i := range numbers {
+		s += numbers[i]
+	}
+	return s
+}
 
 //----------------------指针学习--------------------------
+//比c语言简单多了  go语言指针不能参与运算
+func po() {
+	var aaa int = 2
+	var pa *int = &aaa
+	*pa = 3
+	fmt.Print(aaa)
+}
+
+//将a,b设成指针类型
+func swap(a, b *int) {
+	*a, *b = *b, *a
+}
+func swapold(a, b int) {
+	a, b = b, a
+}
+
+//值传递？  引用传递？
