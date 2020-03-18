@@ -22,7 +22,7 @@ func main() {
 	consts()
 	enums()
 	bounded(98)
-	play()
+	//play()
 	eval(100, 200, "+")
 	forstart()
 
