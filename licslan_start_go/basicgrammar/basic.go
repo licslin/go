@@ -24,6 +24,7 @@ func main() {
 	bounded(98)
 	play()
 	eval(100, 200, "+")
+	forstart()
 
 }
 
@@ -54,7 +55,7 @@ func variableTypeDeduction() {
 func variableshort() {
 	//带有var定义变量
 	var g, f = true, "hhhhhhhhh"
-	//不用写变量的类型  省略方式写
+	//不用写变量的类型  省略方式写  var变量定义省略方式 用冒号:  var c=3  ----> c:=3
 	a, b, c, d := 3, 4, true, "gggggggggggggg"
 	e := 4.0
 	//冒号定义后可以再给变量赋值 此时不用加冒号  否则重复定义变量了
@@ -207,9 +208,16 @@ func eval(a, b int, op string) int {
 		panic("unsported op" + op)
 	}
 	return result
+	//switch 会自动添加break 除非使用fall through
 }
 
 //----------------------循环语句学习--------------------------
+func forstart() {
+	sum := 0
+	for i := 0; i <= 100; i++ {
+		sum += i
+	}
+}
 
 //----------------------函数定义学习--------------------------
 
