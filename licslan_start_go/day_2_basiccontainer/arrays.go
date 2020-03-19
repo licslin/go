@@ -11,3 +11,4 @@ func main() {
 	fmt.Println(arr1, arr2, arr3)
 
 }
+
