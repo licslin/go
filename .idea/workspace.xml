@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="array learn">
-      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/slice.go" afterDir="false" />
+    <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/map.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/arrays.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/arrays.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/slice.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <recent name="D:\go-learn\licslan\helloworld" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build Slice.go">
+  <component name="RunManager" selected="Go Build.go build map.go">
     <configuration name="go build Slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -80,8 +80,26 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/map.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/slice.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build map.go" />
+        <item itemvalue="Go Build.go build slice.go" />
         <item itemvalue="Go Build.go build Slice.go" />
         <item itemvalue="Go Build.go build arrays.go" />
       </list>
@@ -109,56 +127,61 @@
     <MESSAGE value="condition learn" />
     <MESSAGE value="pointer learn" />
     <MESSAGE value="array learn" />
-    <option name="LAST_COMMIT_MESSAGE" value="array learn" />
+    <MESSAGE value="slice learn" />
+    <option name="LAST_COMMIT_MESSAGE" value="slice learn" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584582709242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584582709242" />
+    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586402344258">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586402344258" />
     <state x="679" y="162" key="#go_build_helloworld.go" timestamp="1584533731735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="162" key="#go_build_helloworld.go/0.0.1920.1040@0.0.1920.1040" timestamp="1584533731735" />
-    <state x="585" y="111" key="CommitChangelistDialog2" timestamp="1586402008398">
+    <state x="585" y="111" key="CommitChangelistDialog2" timestamp="1586402129353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586402008398" />
+    <state x="585" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586402129353" />
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1586401835368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586401835368" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1586401967017">
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom" timestamp="1586411587606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586401967017" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1586401967017">
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586411587606" />
+    <state width="1877" height="356" key="GridCell.Tab.0.center" timestamp="1586411587606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586401967017" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1586401967017">
+    <state width="1877" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586411587606" />
+    <state width="1877" height="356" key="GridCell.Tab.0.left" timestamp="1586411587606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586401967017" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1586401967017">
+    <state width="1877" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586411587606" />
+    <state width="1877" height="356" key="GridCell.Tab.0.right" timestamp="1586411587606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586401967017" />
+    <state width="1877" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586411587606" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1584525407541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584525407541" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584546296799">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586402133459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584546296799" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586402133459" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584584751467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584584751467" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584532905023">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586411080345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584532905023" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586411080345" />
   </component>
 </project>
