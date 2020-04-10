@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/object.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/licslan/objectnew.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/package.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/queue/entry/licslan.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/queue/queue.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_1_basicgrammar/basic.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_1_basicgrammar/basic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/arrays.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/arrays.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/object.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/licslan/object.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1ZAKTVkd9xjHqAcDeatmR4ZiCvf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,18 +60,20 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/licslan" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\go-learn\licslan" />
-      <recent name="D:\go-learn\licslan\helloworld" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\go-learn\licslan_start_go\day_3_basicnotrealoop\licslan" />
       <recent name="D:\go-learn" />
       <recent name="D:\go-learn\licslan" />
       <recent name="D:\go-learn\licslan\helloworldconc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\go-learn\licslan_start_go\day_3_basicnotrealoop\entry" />
+      <recent name="D:\go-learn\licslan" />
+      <recent name="D:\go-learn\licslan\helloworld" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build object.go">
@@ -142,9 +151,14 @@
     <MESSAGE value="array learn" />
     <MESSAGE value="slice learn" />
     <MESSAGE value="map learn" />
-    <option name="LAST_COMMIT_MESSAGE" value="map learn" />
+    <MESSAGE value="point&amp;value learn" />
+    <option name="LAST_COMMIT_MESSAGE" value="point&amp;value learn" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Build_Tags_&amp;_Vendoring" timestamp="1586523262576">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Build_Tags_&amp;_Vendoring/0.0.1920.1040@0.0.1920.1040" timestamp="1586523262576" />
     <state x="552" y="198" key="#GOPATH" timestamp="1586505207472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -161,42 +175,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="162" key="#go_build_helloworld.go/0.0.1920.1040@0.0.1920.1040" timestamp="1584533731735" />
-    <state x="585" y="111" key="CommitChangelistDialog2" timestamp="1586411607438">
+    <state x="585" y="111" key="CommitChangelistDialog2" timestamp="1586520724111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586411607438" />
+    <state x="585" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586520724111" />
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1586401835368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586401835368" />
-    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1586506772611">
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1586524116713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586506772611" />
-    <state width="1877" height="466" key="GridCell.Tab.0.bottom" timestamp="1586520693916">
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586524116713" />
+    <state width="1877" height="466" key="GridCell.Tab.0.bottom" timestamp="1586522543697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="466" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586520693916" />
-    <state width="1877" height="466" key="GridCell.Tab.0.center" timestamp="1586520693915">
+    <state width="1877" height="466" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586522543697" />
+    <state width="1877" height="466" key="GridCell.Tab.0.center" timestamp="1586522543697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="466" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586520693915" />
-    <state width="1877" height="466" key="GridCell.Tab.0.left" timestamp="1586520693915">
+    <state width="1877" height="466" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586522543697" />
+    <state width="1877" height="466" key="GridCell.Tab.0.left" timestamp="1586522543697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="466" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586520693915" />
-    <state width="1877" height="466" key="GridCell.Tab.0.right" timestamp="1586520693916">
+    <state width="1877" height="466" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586522543697" />
+    <state width="1877" height="466" key="GridCell.Tab.0.right" timestamp="1586522543697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="466" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586520693916" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1586506775413">
+    <state width="1877" height="466" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586522543697" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1586524121192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586506775413" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586411610808">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586524121192" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586520727807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586411610808" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586520727807" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584584751467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

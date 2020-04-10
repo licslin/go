@@ -1,11 +1,11 @@
-package main
+package licslan
 
 import (
 	"fmt"
 )
 
 /**
-"面向对象"  结构体学习  day3
+"面向对象"  结构体学习  day3  包名由main改为了liclsan  小写私有 private  大写字母开头public
 */
 func main() {
 
