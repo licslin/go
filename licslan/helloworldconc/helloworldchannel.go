@@ -40,7 +40,6 @@ func main() {
 func printhelloworldx(i int,ch chan string)  {
 	//不断的输出  死循环
 	for{
-
 		//打印的值发送到channel里面去  数据进入到channel
 		ch <- fmt.Sprintf("hello world from goroutine %d\n",i)
 	}

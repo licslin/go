@@ -6,7 +6,6 @@ import "fmt"
 切片的学习  一般使用数组较少  数组变成一个slice  arr[:]
 */
 func main() {
-
 	arr := [...]int{0, 1, 2, 4, 5, 6, 3, 4, 6, 7}
 	//是一个视图
 	s := arr[2:6]
@@ -74,7 +73,6 @@ func main() {
 	x = x[:len(x)-1]
 	fmt.Println(front, tail)
 	fmt.Println(x)
-
 }
 
 func updateSlice(s []int) {
@@ -82,5 +80,4 @@ func updateSlice(s []int) {
 }
 func printSlice(s []int) {
 	fmt.Printf("val=%v,len=%d,cap=%d\n", s, len(s), cap(s))
-
 }
