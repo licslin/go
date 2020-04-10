@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-//内建容器  数组
+//内建容器  数组   day 2
 func main() {
 	//定义数组
 	var arr1 [5]int //空数组

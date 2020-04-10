@@ -6,7 +6,7 @@ import (
 )
 
 /**
-map学习
+map学习  day2
 */
 func main() {
 	//定义一个Map
@@ -78,43 +78,43 @@ func main() {
 	//3.更新lastOccured[x] 更新maxLength
 
 	fmt.Println(lengthOfNonRepeatingSubStr("aaaccbdd"))
-	fmt.Println(lengthOfNonRepeatingSubStr("慕课网"))//这里还暂时不支持中文
+	fmt.Println(lengthOfNonRepeatingSubStr("慕课网")) //这里还暂时不支持中文
 	fmt.Println("<<==================================================>>")
-	fmt.Println(lengthOfNonRepeatingSubStrEN("你好！"))//支持中英文
+	fmt.Println(lengthOfNonRepeatingSubStrEN("你好！")) //支持中英文
 
 	//rune相当于go 里面的char
 
 	fmt.Println("==================================================")
 
-	li:="yes我爱慕课网!"
-	fmt.Println(len(li))                //长度19 3+3*5+1=19个字节
-	fmt.Printf("%s\n",[]byte(li))//中文 UTF-8
-	fmt.Printf("%X\n",[]byte(li))//16进制
+	li := "yes我爱慕课网!"
+	fmt.Println(len(li))           //长度19 3+3*5+1=19个字节
+	fmt.Printf("%s\n", []byte(li)) //中文 UTF-8
+	fmt.Printf("%X\n", []byte(li)) //16进制
 	fmt.Println("==================================================")
-	for _,b:=range []byte(li){
+	for _, b := range []byte(li) {
 		//ASCII码  79--y  65--e  73--s  ....  每个中文是三字节
-		fmt.Printf("%X ",b)
+		fmt.Printf("%X ", b)
 		fmt.Println()
 	}
 
 	fmt.Println()
 	//
-	for i,ch:=range li{  //ch is a rune (char)   int32  4字节
-		fmt.Printf("(%d %X) ",i,ch)
+	for i, ch := range li { //ch is a rune (char)   int32  4字节
+		fmt.Printf("(%d %X) ", i, ch)
 	}
 	fmt.Println()
 
-	fmt.Println("Rune count ",utf8.RuneCountInString(li))
+	fmt.Println("Rune count ", utf8.RuneCountInString(li))
 
-	bytes:=[]byte(li)
-	for len(bytes)>0{
-		ch,size:=utf8.DecodeRune(bytes)
-		bytes=bytes[size:]
-		fmt.Printf("%c ",ch)
+	bytes := []byte(li)
+	for len(bytes) > 0 {
+		ch, size := utf8.DecodeRune(bytes)
+		bytes = bytes[size:]
+		fmt.Printf("%c ", ch)
 	}
 	fmt.Println()
-	for i,ch:=range []rune(li){
-		fmt.Printf("(%d,%c)",i,ch)
+	for i, ch := range []rune(li) {
+		fmt.Printf("(%d,%c)", i, ch)
 	}
 	fmt.Println()
 
@@ -123,7 +123,6 @@ func main() {
 	//使用len获得字节长度
 	//使用[]byte获得字节
 
-
 	//字符串操作
 	//Fields Split Join
 	//Contains Index
@@ -131,40 +130,38 @@ func main() {
 	//Trim TrimRight TirmLeft
 	//......
 
-
-	
 }
-//不支持中文
-func lengthOfNonRepeatingSubStr(s string) int  {
-	lastOccurred :=make(map[byte] int)
-	start:=0
-	maxLength:=0
 
-	for i,ch:=range []byte(s){
-		if lastI,ok:= lastOccurred[ch];ok && lastI >=start{
-			start=lastI+1
+//不支持中文
+func lengthOfNonRepeatingSubStr(s string) int {
+	lastOccurred := make(map[byte]int)
+	start := 0
+	maxLength := 0
+
+	for i, ch := range []byte(s) {
+		if lastI, ok := lastOccurred[ch]; ok && lastI >= start {
+			start = lastI + 1
 		}
-		if i-start+1>maxLength{
-			maxLength=i-start+1
+		if i-start+1 > maxLength {
+			maxLength = i - start + 1
 		}
 		lastOccurred[ch] = i
-		}
-		return maxLength
 	}
-
+	return maxLength
+}
 
 //支持中英文  国际化操作
-func lengthOfNonRepeatingSubStrEN(s string) int  {
-	lastOccurred :=make(map[rune] int)
-	start:=0
-	maxLength:=0
+func lengthOfNonRepeatingSubStrEN(s string) int {
+	lastOccurred := make(map[rune]int)
+	start := 0
+	maxLength := 0
 
-	for i,ch:=range []rune(s){
-		if lastI,ok:= lastOccurred[ch];ok && lastI >=start{
-			start=lastI+1
+	for i, ch := range []rune(s) {
+		if lastI, ok := lastOccurred[ch]; ok && lastI >= start {
+			start = lastI + 1
 		}
-		if i-start+1>maxLength{
-			maxLength=i-start+1
+		if i-start+1 > maxLength {
+			maxLength = i - start + 1
 		}
 		lastOccurred[ch] = i
 	}

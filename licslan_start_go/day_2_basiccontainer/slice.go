@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 /**
-切片的学习  一般使用数组较少  数组变成一个slice  arr[:]
+切片的学习  一般使用数组较少  数组变成一个slice  arr[:]  day2
 */
 func main() {
 	arr := [...]int{0, 1, 2, 4, 5, 6, 3, 4, 6, 7}
