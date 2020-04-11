@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/hi/Hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/interface/mock/Retriever.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/interface/play.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/interface/real/Retriever.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/licslan/entry/package.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/licslan/entry/package.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/licslan/object.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/licslan/object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/licslan/objectnew.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/licslan/objectnew.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/queue/entry/licslan.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/queue/entry/licslan.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/queue/queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/queue/queue.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +81,7 @@
       <recent name="D:\go-learn\licslan\helloworld" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build Slice.go">
+  <component name="RunManager" selected="Go Build.go build play.go">
     <configuration name="go build Slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -98,6 +106,14 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build play.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/interface/play.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -111,9 +127,11 @@
       <item itemvalue="Go Build.go build map.go" />
       <item itemvalue="Go Build.go build Slice.go" />
       <item itemvalue="Go Build.go build slice.go" />
+      <item itemvalue="Go Build.go build play.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build play.go" />
         <item itemvalue="Go Build.go build map.go" />
         <item itemvalue="Go Build.go build slice.go" />
         <item itemvalue="Go Build.go build Slice.go" />
@@ -181,22 +199,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586524116713" />
-    <state width="1877" height="466" key="GridCell.Tab.0.bottom" timestamp="1586522543697">
+    <state width="1877" height="607" key="GridCell.Tab.0.bottom" timestamp="1586583322851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="466" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586522543697" />
-    <state width="1877" height="466" key="GridCell.Tab.0.center" timestamp="1586522543697">
+    <state width="1877" height="607" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586583322851" />
+    <state width="1877" height="607" key="GridCell.Tab.0.center" timestamp="1586583322851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="466" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586522543697" />
-    <state width="1877" height="466" key="GridCell.Tab.0.left" timestamp="1586522543697">
+    <state width="1877" height="607" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586583322851" />
+    <state width="1877" height="607" key="GridCell.Tab.0.left" timestamp="1586583322851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="466" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586522543697" />
-    <state width="1877" height="466" key="GridCell.Tab.0.right" timestamp="1586522543697">
+    <state width="1877" height="607" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586583322851" />
+    <state width="1877" height="607" key="GridCell.Tab.0.right" timestamp="1586583322851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="466" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586522543697" />
+    <state width="1877" height="607" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586583322851" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1586524121192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
