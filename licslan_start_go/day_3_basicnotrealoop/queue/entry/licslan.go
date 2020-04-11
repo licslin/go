@@ -1,7 +1,10 @@
 package main
 
 import "fmt"
+
+//不同包下面如何调用  注意大写字母开头才是 public  小写是private
 import ".."
+import "../../../day_2_basiccontainer/hi"
 
 func main() {
 
@@ -13,4 +16,7 @@ func main() {
 	fmt.Println(q.IsEmpty())
 	fmt.Println(q.Pop())
 	fmt.Println(q.IsEmpty())
+
+	x:=hi.Licslan{Age: 3}
+	fmt.Println(x)
 }

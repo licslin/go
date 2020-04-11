@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/package.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/licslan/entry/package.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/hi/Hello.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -47,7 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -67,6 +66,7 @@
       <recent name="D:\go-learn\licslan\helloworldconc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\go-learn\licslan_start_go\day_2_basiccontainer\hi" />
       <recent name="D:\go-learn\licslan_start_go\day_3_basicnotrealoop\licslan\entry" />
       <recent name="D:\go-learn\licslan_start_go\day_3_basicnotrealoop\entry" />
       <recent name="D:\go-learn\licslan" />
