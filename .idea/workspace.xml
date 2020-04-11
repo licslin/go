@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/licslan/objectnew.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/package.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/queue/entry/licslan.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/queue/queue.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/object.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/licslan/object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/package.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/licslan/entry/package.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +67,13 @@
       <recent name="D:\go-learn\licslan\helloworldconc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\go-learn\licslan_start_go\day_3_basicnotrealoop\licslan\entry" />
       <recent name="D:\go-learn\licslan_start_go\day_3_basicnotrealoop\entry" />
       <recent name="D:\go-learn\licslan" />
       <recent name="D:\go-learn\licslan\helloworld" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build object.go">
+  <component name="RunManager" selected="Go Build.go build Slice.go">
     <configuration name="go build Slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -101,14 +98,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build object.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-learn" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/object.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -117,9 +106,14 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build arrays.go" />
+      <item itemvalue="Go Build.go build map.go" />
+      <item itemvalue="Go Build.go build Slice.go" />
+      <item itemvalue="Go Build.go build slice.go" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build object.go" />
         <item itemvalue="Go Build.go build map.go" />
         <item itemvalue="Go Build.go build slice.go" />
         <item itemvalue="Go Build.go build Slice.go" />
@@ -163,10 +157,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="198" key="#GOPATH/0.0.1920.1040@0.0.1920.1040" timestamp="1586505207472" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584582709242">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586574551562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584582709242" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586574551562" />
     <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586402344258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

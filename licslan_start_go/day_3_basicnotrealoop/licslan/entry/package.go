@@ -1,5 +1,6 @@
 package main
 
+import ".."
 /**
 封装
 */
@@ -21,4 +22,5 @@ func main() {
 
 type myTreeNode struct {
 	//如何引入licslan包下面的objectnew.go结构体呢？
+	node *licslan.TreeNode
 }
