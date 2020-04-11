@@ -16,6 +16,12 @@ func main() {
 	fmt.Println(q.IsEmpty())
 	fmt.Println(q.Pop())
 	fmt.Println(q.IsEmpty())
+	q.Push("abc")
+	q.Push("abcddd")
+	q.Push("1")
+	q.Push(bool(true))
+	fmt.Println(q)
+
 
 	x:=hi.Licslan{Age: 3}
 	fmt.Println(x)

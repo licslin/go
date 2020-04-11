@@ -38,19 +38,82 @@ func main() {
 	//接口的实现是隐式的  实现里面的方法
 	inspect(r)
 	fmt.Println("xxxxxxxxxxxxxxxxxxxxxxxxx")
-	//realRetriever:=r.(*real.Retriever)
-	//fmt.Println(realRetriever)
+
+	//Type assertion
+	if realRetriever, ok :=r.(*real.Retriever);ok{
+		fmt.Println(realRetriever)
+	}else {
+		fmt.Println("not a real retriever")
+	}
+
+	//接口变量里面有什么
+	//接口变量：实现者的类型 和  实现者的值
+	//接口变量：实现者的类型 和  实现者的指针---> 实现者
+
+
+	//接口变量自带指针
+	//接口变量同样采用值传递 几乎不需要使用接口的指针
+	//指针接收者实现只能以指针方式使用 值接收者都可以
+	//var x RetrieverPoster
+	p:= play{age: 20}
+	fmt.Println(p)
+	fmt.Println("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv")
+	//s := p.play(x)
+	//fmt.Println(s)
+
+
 
 }
 
+//结构体
+type play struct {
+	age int
+}
+
+
+//接口
 type Retriever interface {
 	Get(url string) string
 }
 
-//使用者
+//接口
+type Poster interface {
+	Post(url string,form map[string]string) string
+}
+
+//组合Retriever  Poster   接口
+type RetrieverPoster interface {
+	Retriever
+	Poster
+	Connect(host string)
+}
+
+const url  ="http://www.licslan.com"
+//方法  play结构体的方法
+func (x play) play(s RetrieverPoster) string {
+	//可以同时调用2个接口   组合在一起了
+	s.Post(url, map[string]string{
+		"contents": "x",
+	})
+
+	return s.Get(url)
+}
+
+//普通方法
+func post(poster Poster)  {
+	poster.Post("http://www.licslan.com", map[string]string{
+		"name":"licslan",
+		"course":"go",
+	})
+}
+
+
+//使用者   普通方法
 func download(r Retriever) string {
 	return r.Get("http://www.licslan.com")
 }
+
+//普通方法
 func inspect(r Retriever)  {
 	switch v:= r.(type) {
 	case real.Retriever:
@@ -61,4 +124,7 @@ func inspect(r Retriever)  {
 		fmt.Println("UserAgent:",v.UserAgent)
 	}
 }
+
+
+//stringer   Reader/Writer   特殊接口
 
