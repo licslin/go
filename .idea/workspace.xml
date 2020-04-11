@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_4_funcprogramming/fibonacci.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/licslan_start_go/day_4_funcprogramming/funclearn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/lubanproj/gorpc.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/lubanproj/gorpc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/interface/mock/Retriever.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/interface/mock/Retriever.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/interface/play.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/interface/play.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/queue/entry/licslan.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/queue/entry/licslan.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/queue/queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/queue/queue.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -50,7 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -59,7 +61,8 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/licslan_start_go/day_3_basicnotrealoop/licslan" />
+    <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gorpc" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
@@ -77,12 +80,20 @@
       <recent name="D:\go-learn\licslan\helloworld" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build play.go">
-    <configuration name="go build Slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build fibonacci.go">
+    <configuration name="go build fibonacci.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/Slice.go" />
+      <filePath value="$PROJECT_DIR$/licslan_start_go/day_4_funcprogramming/fibonacci.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build funclearn.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/licslan_start_go/day_4_funcprogramming/funclearn.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -110,28 +121,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-learn" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/licslan_start_go/day_2_basiccontainer/slice.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Go Build.go build map.go" />
-      <item itemvalue="Go Build.go build Slice.go" />
-      <item itemvalue="Go Build.go build slice.go" />
       <item itemvalue="Go Build.go build play.go" />
       <item itemvalue="Go Build.go build licslan.go" />
+      <item itemvalue="Go Build.go build funclearn.go" />
+      <item itemvalue="Go Build.go build fibonacci.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build fibonacci.go" />
+        <item itemvalue="Go Build.go build funclearn.go" />
         <item itemvalue="Go Build.go build play.go" />
         <item itemvalue="Go Build.go build licslan.go" />
         <item itemvalue="Go Build.go build map.go" />
-        <item itemvalue="Go Build.go build slice.go" />
-        <item itemvalue="Go Build.go build Slice.go" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +170,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Build_Tags_&amp;_Vendoring/0.0.1920.1040@0.0.1920.1040" timestamp="1586523262576" />
+    <state x="552" y="178" key="#Dep" timestamp="1586592064478">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Dep/0.0.1920.1040@0.0.1920.1040" timestamp="1586592064478" />
     <state x="552" y="198" key="#GOPATH" timestamp="1586505207472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -175,10 +182,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586574551562" />
-    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586402344258">
+    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586592171748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586402344258" />
+    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586592171748" />
     <state x="679" y="162" key="#go_build_helloworld.go" timestamp="1584533731735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -191,26 +198,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586401835368" />
-    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1586524116713">
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1586590950660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586524116713" />
-    <state width="1877" height="237" key="GridCell.Tab.0.bottom" timestamp="1586590072971">
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586590950660" />
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1586594806159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586590072971" />
-    <state width="1877" height="237" key="GridCell.Tab.0.center" timestamp="1586590072971">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586594806159" />
+    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1586594806159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586590072971" />
-    <state width="1877" height="237" key="GridCell.Tab.0.left" timestamp="1586590072971">
+    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586594806159" />
+    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1586594806159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586590072971" />
-    <state width="1877" height="237" key="GridCell.Tab.0.right" timestamp="1586590072971">
+    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586594806159" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1586594806159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586590072971" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586594806159" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1586524121192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
