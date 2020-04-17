@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/goweb.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/licslanweb.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/web.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="go-learn" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,7 +62,7 @@
     <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/web/models" />
-    <property name="settings.editor.selected.configurable" value="go" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -184,26 +183,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586609514130" />
-    <state width="1199" height="230" key="GridCell.Tab.0.bottom" timestamp="1587100915561">
+    <state width="1877" height="359" key="GridCell.Tab.0.bottom" timestamp="1587101681825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1199" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587100915561" />
-    <state width="1199" height="230" key="GridCell.Tab.0.center" timestamp="1587100915561">
+    <state width="1877" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587101681825" />
+    <state width="1877" height="359" key="GridCell.Tab.0.center" timestamp="1587101681825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1199" height="230" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587100915561" />
-    <state width="1199" height="230" key="GridCell.Tab.0.left" timestamp="1587100915561">
+    <state width="1877" height="359" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587101681825" />
+    <state width="1877" height="359" key="GridCell.Tab.0.left" timestamp="1587101681824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1199" height="230" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587100915561" />
-    <state width="1199" height="230" key="GridCell.Tab.0.right" timestamp="1587100915561">
+    <state width="1877" height="359" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587101681824" />
+    <state width="1877" height="359" key="GridCell.Tab.0.right" timestamp="1587101681825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1199" height="230" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587100915561" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1587099446440">
+    <state width="1877" height="359" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587101681825" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1587101611871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587099446440" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587101611871" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586520727807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
