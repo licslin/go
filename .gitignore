@@ -4,4 +4,5 @@
 out/
 src/github.com
 src/go.uber.org
+src/web/.idea
 pkg/*
