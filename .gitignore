@@ -2,5 +2,6 @@
 *.iml
 *.class
 out/
-src/*
+src/github.com
+src/go.uber.org
 pkg/*

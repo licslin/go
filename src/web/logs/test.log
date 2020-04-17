@@ -1,0 +1,23 @@
+2020/04/17 13:24:20.991 [I] [router.go:833]  user licslan loged in
+2020/04/17 13:25:24.554 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/04/17 13:25:24.557 [C] [asm_amd64.s:1373]  ListenAndServe:  listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2020/04/17 13:25:49.962 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/04/17 13:25:53.949 [I] [router.go:833]  user licslan loged in
+2020/04/17 13:25:54.560 [I] [router.go:833]  user licslan loged in
+2020/04/17 13:25:54.769 [I] [router.go:833]  user licslan loged in
+2020/04/17 13:31:36.237 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/04/17 13:31:41.669 [I] [router.go:833]  user licslan loged in
+2020/04/17 13:32:30.025 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/04/17 13:32:34.146 [I] [router.go:833]  user licslan loged in
+2020/04/17 13:33:55.190 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/04/17 13:33:59.715 [I] [router.go:833]  user licslan loged in
+2020/04/17 13:34:58.756 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/04/17 13:35:09.855 [I] [router.go:833]  user licslan loged in
+2020/04/17 13:35:59.785 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/04/17 13:36:01.019 [I] [router.go:833]  user licslan loged in
+2020/04/17 13:36:01.344 [I] [router.go:833]  user licslan loged in
+2020/04/17 13:36:01.557 [I] [router.go:833]  user licslan loged in
+2020/04/17 13:58:12.306 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/04/17 13:58:22.899 [I] [router.go:833]  user licslan loged in
+2020/04/17 13:58:46.663 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/04/17 13:58:49.903 [I] [router.go:833]  user licslan loged in
