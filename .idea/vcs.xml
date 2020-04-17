@@ -21,6 +21,7 @@
     <mapping directory="$PROJECT_DIR$/src/github.com/lubanproj/gorpc" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/mattn/go-sqlite3" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/opentracing/opentracing-go" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/patrickmn/go-cache" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/pkg/errors" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/shiena/ansicolor" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/siddontang/ledisdb" vcs="Git" />
@@ -33,6 +34,7 @@
     <mapping directory="$PROJECT_DIR$/src/github.com/vmihailenco/msgpack" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/vmihailenco/tagparser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/wendal/errors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/ziyoubiancheng/xcms" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/go.uber.org/atomic" vcs="Git" />
   </component>
 </project>

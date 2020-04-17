@@ -2,7 +2,222 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/web/consts/Common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/controllers/BaseController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/controllers/DataController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/controllers/FormatController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/controllers/HomeController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/controllers/LoginController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/controllers/MenuController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/controllers/MenuModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/controllers/UserController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/models/Common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/models/MenuModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/models/init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/ace/ace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/ace/mode-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/ace/mode-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/ace/mode-javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/ace/mode-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/ace/mode-less.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/ace/mode-markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/ace/theme-twilight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/ace/worker-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/ace/worker-javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/ace/worker-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/bootstrap-dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/bootstrap-wysihtml5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/bootstrap-wysihtml5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/jquery.transloadit2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/jquery.ui.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/jquery.ui.mouse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/jquery.ui.sortable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/jquery.ui.widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/jsv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/spectrum.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/opt/spectrum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/deps/underscore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/lib/jsonform-defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/lib/jsonform-split.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/lib/jsonform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/editground.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/events.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/factory-sleek.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-ace.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-actions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-advancedfieldset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-array.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-authfieldset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-checkbox.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-checkboxes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-color.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-common.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-fieldset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-help.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-hidden.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-iconselect.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-imageselect.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-password.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-questions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-radiobuttons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-radios.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-range.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-section.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-select.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-selectfieldset-key.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-selectfieldset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-submit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-tabarray-maxitems.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-tabarray-value.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-tabarray.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/fields-textarea.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/gettingstarted.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/previousvalues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/schema-array.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/schema-basic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/schema-morecomplex.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/templating-idx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/templating-tpldata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/templating-value.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/examples/templating-values.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/playground/playground.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/ace/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/actions/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/array/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/checkbox/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/checkboxes/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/color/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/fieldset/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/file/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/help/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/hidden/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/i18n/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/imageselect/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/number/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/checkboxes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/complexlists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/defaults.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/expandable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/forms/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/forms/basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/forms/checkboxes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/forms/complexlists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/forms/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/forms/expandable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/forms/prefix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/forms/tabarray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/forms/tabs-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/forms/tabs-values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/forms/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/forms/titleMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/prefix.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/tabarray.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/tabs-array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/tabs-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/tabs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/other/titleMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/section/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/select/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/selectfieldset/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/tabarray/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/template/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/text/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/value/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/jsonform/tests/wysihtml5/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/sysinit/initDB.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/sysinit/sysinit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/utils/Cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/utils/String.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/common/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/common/layout_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/common/layout_jfedit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/data/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/data/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/data/footerjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/data/footerjs_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/data/footerjs_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/data/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/format/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/format/examples.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/format/footerjs_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/home/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/menu/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/menu/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/menu/footerjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/menu/footerjs_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/menu/footerjs_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/menu/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/user/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/user/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/user/footerjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/user/footerjs_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/user/footerjs_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/views/user/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/web.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/web.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/logs/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/logs/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/models/page.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/models/page.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/web.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/web.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +230,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -49,7 +264,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -60,7 +275,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/web/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/web/controllers" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
@@ -72,11 +287,11 @@
       <recent name="D:\go-learn\licslan\helloworld" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\go-learn\src\web\controllers" />
+      <recent name="D:\go-learn\src\web\static" />
+      <recent name="D:\go-learn\src\web\views" />
       <recent name="D:\go-learn\src\web\models" />
       <recent name="D:\go-learn\licslan_start_go\day_3_basicnotrealoop\licslan" />
-      <recent name="D:\go-learn" />
-      <recent name="D:\go-learn\licslan" />
-      <recent name="D:\go-learn\licslan\helloworldconc" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build web">
@@ -162,10 +377,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587097278823" />
-    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587097203320">
+    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587111721052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587097203320" />
+    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587111721052" />
     <state x="679" y="162" key="#go_build_helloworld.go" timestamp="1584533731735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -182,22 +397,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586609514130" />
-    <state width="1877" height="359" key="GridCell.Tab.0.bottom" timestamp="1587101681825">
+    <state width="1877" height="359" key="GridCell.Tab.0.bottom" timestamp="1587108156024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587101681825" />
-    <state width="1877" height="359" key="GridCell.Tab.0.center" timestamp="1587101681825">
+    <state width="1877" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587108156024" />
+    <state width="1877" height="359" key="GridCell.Tab.0.center" timestamp="1587108156024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587101681825" />
-    <state width="1877" height="359" key="GridCell.Tab.0.left" timestamp="1587101681824">
+    <state width="1877" height="359" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587108156024" />
+    <state width="1877" height="359" key="GridCell.Tab.0.left" timestamp="1587108156024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587101681824" />
-    <state width="1877" height="359" key="GridCell.Tab.0.right" timestamp="1587101681825">
+    <state width="1877" height="359" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587108156024" />
+    <state width="1877" height="359" key="GridCell.Tab.0.right" timestamp="1587108156024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587101681825" />
+    <state width="1877" height="359" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587108156024" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1587101611871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

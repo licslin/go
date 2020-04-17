@@ -21,3 +21,10 @@
 2020/04/17 13:58:22.899 [I] [router.go:833]  user licslan loged in
 2020/04/17 13:58:46.663 [I] [asm_amd64.s:1373]  http server Running on http://:8080
 2020/04/17 13:58:49.903 [I] [router.go:833]  user licslan loged in
+2020/04/17 14:34:01.630 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/04/17 14:34:21.208 [I] [router.go:833]  user licslan loged in
+2020/04/17 14:35:19.774 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/04/17 14:35:26.450 [I] [router.go:833]  user licslan loged in
+2020/04/17 14:35:31.100 [I] [router.go:833]  user licslan loged in
+2020/04/17 14:41:40.356 [I] [asm_amd64.s:1373]  http server Running on http://:8080
+2020/04/17 14:42:07.950 [I] [asm_amd64.s:1373]  http server Running on http://:8080
