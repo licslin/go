@@ -1,6 +1,6 @@
 package models
 import (
-	"../consts"
+	"web/consts"
 )
 
 // JsonResult 用于返回ajax请求的基类

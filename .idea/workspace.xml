@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="" />
+    <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/web/models/MenuTreeStruct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/models/UserModel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/web.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/web.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/controllers/BaseController.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/controllers/BaseController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/controllers/HomeController.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/controllers/HomeController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/controllers/MenuController.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/controllers/MenuController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/controllers/MenuModel.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/models/Common.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/models/Common.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/models/MenuModel.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/models/MenuModel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/models/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/models/init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/models/page.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/models/page.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/web.exe" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +74,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/web/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/web/models" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
@@ -70,10 +86,10 @@
       <recent name="D:\go-learn\licslan\helloworld" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\go-learn\src\web\models" />
       <recent name="D:\go-learn\src\web\controllers" />
       <recent name="D:\go-learn\src\web\static" />
       <recent name="D:\go-learn\src\web\views" />
-      <recent name="D:\go-learn\src\web\models" />
       <recent name="D:\go-learn\licslan_start_go\day_3_basicnotrealoop\licslan" />
     </key>
   </component>

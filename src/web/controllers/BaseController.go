@@ -1,11 +1,10 @@
 package controllers
 
 import (
-	"strings"
-
-	"../consts"
-	"../models"
 	"github.com/astaxie/beego"
+	"strings"
+	"web/consts"
+	. "web/models"
 )
 
 type BaseController struct {
@@ -20,7 +19,7 @@ func (c *BaseController) Prepare() {
 	beego.Informational(c.controllerName, c.actionName)
 
 	user := c.auth()
-	c.Data["Menu"] = models.MenuTreeStruct(user)
+	c.Data["Menu"] = MenuTreeStruct(user)
 }
 
 // 设置模板
@@ -49,26 +48,26 @@ func (c *BaseController) setTpl(template ...string) {
 	c.TplName = tplName
 }
 func (c *BaseController) jsonResult(code consts.JsonResultCode, msg string, obj interface{}) {
-	r := &models.JsonResult{code, msg, obj}
+	r := &JsonResult{code, msg, obj}
 	c.Data["json"] = r
 	c.ServeJSON()
 	c.StopRun()
 }
 
 func (c *BaseController) listJsonResult(code consts.JsonResultCode, msg string, count int64, obj interface{}) {
-	r := &models.ListJsonResult{code, msg, count, obj}
+	r := &ListJsonResult{code, msg, count, obj}
 	c.Data["json"] = r
 	c.ServeJSON()
 	c.StopRun()
 }
 
-func (c *BaseController) auth() models.UserModel {
+func (c *BaseController) auth() UserModel {
 	user := c.GetSession("xcmsuser")
 	if user == nil {
 		c.Redirect("/login", 302)
 		c.StopRun()
-		return models.UserModel{}
+		return UserModel{}
 	} else {
-		return user.(models.UserModel)
+		return user.(UserModel)
 	}
 }

@@ -20,7 +20,7 @@ func init()  {
 	orm.RegisterDataBase(
 		"default",
 		"mysql",
-		"root:123456@tcp(111.190.58.175:13306)/LICSLAN?charset=utf8")
+		"root:123456@tcp(118.190.58.175:13306)/LICSLAN?charset=utf8")
 	orm.RegisterModel(new(Page))
 }
 
