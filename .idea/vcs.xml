@@ -2,17 +2,37 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/github.com/astaxie/beego" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/OwnLocal/goes" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/beego/bee" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/beego/goyaml2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/beego/x2j" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/bradfitz/gomemcache" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/cloudflare/golz4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/couchbase/go-couchbase" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/couchbase/goutils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/elazarl/go-bindata-assetfs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/go-redis/redis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/go-sql-driver/mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/gogo/protobuf" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/golang/protobuf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/gomodule/redigo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/jtolds/gls" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/lib/pq" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/lubanproj/gorpc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/mattn/go-sqlite3" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/opentracing/opentracing-go" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/pkg/errors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/shiena/ansicolor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/siddontang/ledisdb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/smartystreets/assertions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/smartystreets/goconvey" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/ssdb/gossdb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/uber/jaeger-client-go" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/uber/jaeger-client-go/idl" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/uber/jaeger-lib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/vmihailenco/msgpack" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/vmihailenco/tagparser" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/wendal/errors" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/go.uber.org/atomic" vcs="Git" />
   </component>
 </project>

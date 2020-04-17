@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bin/goweb.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licslan_start_go/day_5_definerror/filestringserver/web.go" beforeDir="false" afterPath="$PROJECT_DIR$/licslan_start_go/day_5_definerror/filestringserver/web.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/licslanweb.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/web.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,16 +62,10 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mq/rocketmq" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/web/models" />
+    <property name="settings.editor.selected.configurable" value="go" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\go-learn\licslan_start_go\day_3_basicnotrealoop\licslan" />
-      <recent name="D:\go-learn" />
-      <recent name="D:\go-learn\licslan" />
-      <recent name="D:\go-learn\licslan\helloworldconc" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\go-learn\licslan_start_go\day_2_basiccontainer\hi" />
       <recent name="D:\go-learn\licslan_start_go\day_3_basicnotrealoop\licslan\entry" />
@@ -76,62 +73,46 @@
       <recent name="D:\go-learn\licslan" />
       <recent name="D:\go-learn\licslan\helloworld" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\go-learn\src\web\models" />
+      <recent name="D:\go-learn\licslan_start_go\day_3_basicnotrealoop\licslan" />
+      <recent name="D:\go-learn" />
+      <recent name="D:\go-learn\licslan" />
+      <recent name="D:\go-learn\licslan\helloworldconc" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build web.go">
-    <configuration name="go build errohandler.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build web">
+    <configuration name="go build goweb" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/licslan_start_go/day_5_definerro/errohandler.go" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/goweb/main.go" />
+      <package value="goweb" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build fibonacci.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/licslan_start_go/day_4_funcprogramming/fibonacci.go" />
+      <filePath value="$PROJECT_DIR$/web/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build funclearn.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build web" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/licslan_start_go/day_4_funcprogramming/funclearn.go" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/web/main.go" />
+      <package value="web" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build play.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-learn" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/licslan_start_go/day_3_basicoop/interface/play.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build web.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-learn" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/licslan_start_go/day_5_definerror/filestringserver/web.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Go Build.go build play.go" />
-      <item itemvalue="Go Build.go build funclearn.go" />
-      <item itemvalue="Go Build.go build fibonacci.go" />
-      <item itemvalue="Go Build.go build errohandler.go" />
-      <item itemvalue="Go Build.go build web.go" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build web.go" />
-        <item itemvalue="Go Build.go build errohandler.go" />
-        <item itemvalue="Go Build.go build fibonacci.go" />
-        <item itemvalue="Go Build.go build funclearn.go" />
-        <item itemvalue="Go Build.go build play.go" />
+        <item itemvalue="Go Build.go build web" />
+        <item itemvalue="Go Build.go build goweb" />
+        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +134,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/github.com/casbin/casbin" />
+      <path value="$PROJECT_DIR$/src/github.com/astaxie/beego" />
+    </ignored-roots>
     <MESSAGE value="def package variable" />
     <MESSAGE value="condition learn" />
     <MESSAGE value="pointer learn" />
@@ -175,14 +160,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="198" key="#GOPATH/0.0.1920.1040@0.0.1920.1040" timestamp="1586505207472" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586574551562">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587097278823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586574551562" />
-    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586595681404">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587097278823" />
+    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587097203320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586595681404" />
+    <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587097203320" />
     <state x="679" y="162" key="#go_build_helloworld.go" timestamp="1584533731735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,26 +184,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586609514130" />
-    <state width="1860" height="195" key="GridCell.Tab.0.bottom" timestamp="1586956440789">
+    <state width="1199" height="230" key="GridCell.Tab.0.bottom" timestamp="1587100915561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586956440789" />
-    <state width="1860" height="195" key="GridCell.Tab.0.center" timestamp="1586956440789">
+    <state width="1199" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587100915561" />
+    <state width="1199" height="230" key="GridCell.Tab.0.center" timestamp="1587100915561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586956440789" />
-    <state width="1860" height="195" key="GridCell.Tab.0.left" timestamp="1586956440789">
+    <state width="1199" height="230" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587100915561" />
+    <state width="1199" height="230" key="GridCell.Tab.0.left" timestamp="1587100915561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586956440789" />
-    <state width="1860" height="195" key="GridCell.Tab.0.right" timestamp="1586956440789">
+    <state width="1199" height="230" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587100915561" />
+    <state width="1199" height="230" key="GridCell.Tab.0.right" timestamp="1587100915561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586956440789" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1587039354786">
+    <state width="1199" height="230" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587100915561" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1587099446440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587039354786" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587099446440" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586520727807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -2,5 +2,5 @@
 *.iml
 *.class
 out/
-src/
-pkg/
+src/*
+pkg/*
