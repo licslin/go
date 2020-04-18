@@ -19,22 +19,22 @@ func init() {
 	beego.Router("/menu/list", &controllers.MenuController{}, "*:List")
 
 	//user
-	//beego.Router("/user", &controllers.UserController{}, "Get:Index")
-	//beego.Router("/user/add", &controllers.UserController{}, "Get:Add")
-	//beego.Router("/user/adddo", &controllers.UserController{}, "*:AddDo")
-	//beego.Router("/user/edit", &controllers.UserController{}, "Get:Edit")
-	//beego.Router("/user/editdo", &controllers.UserController{}, "*:EditDo")
-	//beego.Router("/user/deletedo", &controllers.UserController{}, "Get:DeleteDo")
-	//beego.Router("/user/list", &controllers.UserController{}, "*:List")
+	beego.Router("/user", &controllers.UserController{}, "Get:Index")
+	beego.Router("/user/add", &controllers.UserController{}, "Get:Add")
+	beego.Router("/user/adddo", &controllers.UserController{}, "*:AddDo")
+	beego.Router("/user/edit", &controllers.UserController{}, "Get:Edit")
+	beego.Router("/user/editdo", &controllers.UserController{}, "*:EditDo")
+	beego.Router("/user/deletedo", &controllers.UserController{}, "Get:DeleteDo")
+	beego.Router("/user/list", &controllers.UserController{}, "*:List")
 
 	//login
-	//beego.Router("/login", &controllers.LoginController{}, "*:Index")
+	beego.Router("/login", &controllers.LoginController{}, "*:Index")
 
 	//format
-	//beego.Router("/format/edit", &controllers.FormatController{}, "Get:Edit")
-	//beego.Router("/format/editdo", &controllers.FormatController{}, "*:EditDo")
+	beego.Router("/format/edit", &controllers.FormatController{}, "Get:Edit")
+	beego.Router("/format/editdo", &controllers.FormatController{}, "*:EditDo")
 
 	//Data
-	//beego.Router("/data/?:mid", &controllers.DataController{}, "Get:Index")
-	//beego.Router("/data/list/?:mid", &controllers.DataController{}, "*:List")
+	beego.Router("/data/?:mid", &controllers.DataController{}, "Get:Index")
+	beego.Router("/data/list/?:mid", &controllers.DataController{}, "*:List")
 }

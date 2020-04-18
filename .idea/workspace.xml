@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95886d94-ca4e-4272-ab25-b8d21789eeec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/web/models/MenuTreeStruct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/models/UserModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/models/DataModel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/web.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/web.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/conf/app.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web/controllers/BaseController.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/controllers/BaseController.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/controllers/HomeController.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/controllers/HomeController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/controllers/DataController.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/controllers/DataController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/controllers/FormatController.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/controllers/FormatController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/controllers/LoginController.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/controllers/LoginController.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web/controllers/MenuController.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/controllers/MenuController.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/controllers/MenuModel.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/models/Common.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/models/Common.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/controllers/UserController.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/controllers/UserController.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web/models/MenuModel.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/models/MenuModel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/models/MenuTreeStruct.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/models/MenuTreeStruct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/models/UserModel.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/models/UserModel.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web/models/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/models/init.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/models/page.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/models/page.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/routers/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/web.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
     <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/web/models" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -93,7 +93,15 @@
       <recent name="D:\go-learn\licslan_start_go\day_3_basicnotrealoop\licslan" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build web">
+  <component name="RunManager" selected="Go Build.go build basic.go">
+    <configuration name="go build basic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/licslan_start_go/day_1_basicgrammar/basic.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build goweb" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -122,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build basic.go" />
         <item itemvalue="Go Build.go build web" />
         <item itemvalue="Go Build.go build goweb" />
         <item itemvalue="Go Build.go build main.go" />
@@ -149,6 +158,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/src/github.com/casbin/casbin" />
       <path value="$PROJECT_DIR$/src/github.com/astaxie/beego" />
+      <path value="$PROJECT_DIR$/src/github.com/ziyoubiancheng/xcms" />
     </ignored-roots>
     <MESSAGE value="def package variable" />
     <MESSAGE value="condition learn" />
@@ -180,6 +190,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587111721052" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1587128888056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587128888056" />
     <state x="679" y="162" key="#go_build_helloworld.go" timestamp="1584533731735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -196,30 +210,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586609514130" />
-    <state width="1877" height="359" key="GridCell.Tab.0.bottom" timestamp="1587108156024">
+    <state width="1877" height="454" key="GridCell.Tab.0.bottom" timestamp="1587184030997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587108156024" />
-    <state width="1877" height="359" key="GridCell.Tab.0.center" timestamp="1587108156024">
+    <state width="1877" height="454" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587184030997" />
+    <state width="1877" height="454" key="GridCell.Tab.0.center" timestamp="1587184030997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587108156024" />
-    <state width="1877" height="359" key="GridCell.Tab.0.left" timestamp="1587108156024">
+    <state width="1877" height="454" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587184030997" />
+    <state width="1877" height="454" key="GridCell.Tab.0.left" timestamp="1587184030996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587108156024" />
-    <state width="1877" height="359" key="GridCell.Tab.0.right" timestamp="1587108156024">
+    <state width="1877" height="454" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587184030996" />
+    <state width="1877" height="454" key="GridCell.Tab.0.right" timestamp="1587184030997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="359" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587108156024" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1587101611871">
+    <state width="1877" height="454" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587184030997" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1587183980688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587101611871" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586520727807">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587183980688" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587189099139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586520727807" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587189099139" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584584751467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

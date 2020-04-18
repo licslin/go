@@ -6,6 +6,7 @@
     <mapping directory="$PROJECT_DIR$/src/github.com/beego/bee" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/beego/goyaml2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/beego/x2j" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/bitly/go-simplejson" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/bradfitz/gomemcache" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/cloudflare/golz4" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/couchbase/go-couchbase" vcs="Git" />
@@ -28,13 +29,13 @@
     <mapping directory="$PROJECT_DIR$/src/github.com/smartystreets/assertions" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/smartystreets/goconvey" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/ssdb/gossdb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/stretchr/testify" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/uber/jaeger-client-go" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/uber/jaeger-client-go/idl" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/uber/jaeger-lib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/vmihailenco/msgpack" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/vmihailenco/tagparser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/wendal/errors" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/github.com/ziyoubiancheng/xcms" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/go.uber.org/atomic" vcs="Git" />
   </component>
 </project>
